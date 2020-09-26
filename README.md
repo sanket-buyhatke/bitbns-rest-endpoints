@@ -772,7 +772,7 @@
   
   
   <b>Get Sell Order Book</b>
-  <pre> curl -H "X-BITBNS-APIKEY: ${API-KEY}" -X GET 'https://api.bitbns.com/api/trade/v1/orderbook/sell/{$COIN_NAME}' </pre>
+  <pre> curl -H "X-BITBNS-APIKEY: ${API-KEY}" -X GET "https://api.bitbns.com/api/trade/v1/orderbook/sell/${COIN_NAME}" </pre>
   <pre> Example :: curl -H "X-BITBNS-APIKEY: 234545231CDFGGDFDFEWSD" -X GET 'https://api.bitbns.com/api/trade/v1/orderbook/sell/BTC'</pre>
   <details> 
   <summary>
@@ -847,12 +847,11 @@
 }
    </pre>
   </details>
-  
-  
+
   <b>Get Buy Order Book</b>
-  <pre> curl -H "X-BITBNS-APIKEY: ${API-KEY}" -X GET 'https://api.bitbns.com/api/trade/v1/orderbook/buy/{$COIN_NAME}' </pre>
+  <pre> curl -H "X-BITBNS-APIKEY: ${API-KEY}" -X GET "https://api.bitbns.com/api/trade/v1/orderbook/buy/${COIN_NAME}" </pre>
   <pre>Example :: curl -H "X-BITBNS-APIKEY: 234545231CDFGGDFDFEWSD" -X GET 'https://api.bitbns.com/api/trade/v1/orderbook/buy/BTC'</pre>
-  <details> 
+  <details>
   <summary>
    View Response
   </summary>
