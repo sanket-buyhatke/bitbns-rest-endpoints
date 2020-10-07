@@ -1,6 +1,17 @@
 # BITBNS REST API ENDPOINTS
 
-  
+  # **This repository is not maintained anymore**
+
+  This repository will not be officially supported any longer.
+
+  To further explore bitbns APIs please checkout:
+
+- [Node API trading](https://github.com/bitbns-official/node-bitbns-api)
+- [Python API trading](https://github.com/bitbns-official/bitbnspy)
+- [Postman Documentation](https://documenter.getpostman.com/view/2372406/Szt5hBp7?version=latest#ae33d06b-228e-4293-aea6-39f2fc436395)
+
+---
+
   <b>Get Tickers</b>
   <pre>curl -H "X-BITBNS-APIKEY: ${API-KEY}" -X GET 'https://api.bitbns.com/api/trade/v1/tickers'</pre>
   <pre>Example :: curl -H "X-BITBNS-APIKEY: 234545231CDFGGDFDFEWSD" -X GET 'https://api.bitbns.com/api/trade/v1/tickers'</pre>
